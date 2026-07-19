@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    
+    <nav class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="trivia.html">Trivia</a>
+    </nav>
+
+    <div class="container">
+        <aside class="left-sidebar">
+            <h3>Useful Links</h3>
+           <ul>
+            <li><a href="https://lms.ritsumei.ac.jp/my/" target="_blank">Moodle +R</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="https://sp.ritsumei.ac.jp/studentportal/s/" target="_blank">Student Portal</a></li>
+           </ul>
+
+        </aside>
+
+        <main class="main-content">
+            <h2>My Projects & Coursework</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Tools / Skills</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RoboCup Omnidirectional Mirror Design</td>
+                        <td>An omnidirectional mirror custom-made and fine-tuned for robot competitions</td>
+                        <td>Fusion 360, 3D Modeling</td>
+                        <td>March 2026</td>
+                    </tr>
+                    <tr>
+                        <td>Cybersecurity Case Study</td>
+                        <td>Investigated and analyzed the background of the WannaCry ransomware attack within the context of engineering ethics</td>
+                        <td>Research, Ethics</td>
+                        <td>April 2026</td>
+                    </tr>
+                    <tr>
+                        <td>Roman Numeral Converter</td>
+                        <td>In class, we implemented a program to convert Roman numerals using conditional branching and string manipulation</td>
+                        <td>Python</td>
+                        <td>May 2026</td>
+                    </tr>
+                    <tr>
+                        <td>RoboCup Dribbler</td>
+                        <td>Designed a dribbler mechanism to stably hold and control the ball for RoboCup competitions</td>
+                        <td>Robotics, Fusion 360, Hardware Design</td>
+                        <td>June 2026</td>
+                    </tr>
+                    <tr>
+                        <td>RoboCup Double Omni Mechanism</td>
+                        <td>Designed a double omnidirectional mechanism for improved mobility and maneuverability</td>
+                        <td>Robotics, Fusion 360, Hardware Design</td>
+                        <td>July 2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <aside class="right-sidebar">
+            <h3>Contact Me</h3>
+            <form id="contact-form" onsubmit="return validateForm()">
+                <input type="text" id="name" placeholder="Your Name">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Created on: 2026-07-19</p>
+        <p>
+            <a href="https://github.com/nk426499-dotcom" target="_blank">sawa (GitHub)</a> | 
+            <a href="https://www.ritsumei.ac.jp/" target="_blank">Ritsumeikan Univ</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
