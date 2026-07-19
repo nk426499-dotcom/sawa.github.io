@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #d9e2ec;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.menu-bar {
+    background-color: #334e68;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.menu-bar a:hover {
+    background-color: #627d98; 
+}
+
+.container {
+    display: flex;
+    flex: 1; 
+}
+
+
+.left-sidebar {
+    width: 20%;
+    background-color: #e3ecf3;
+    padding: 1.5rem;
+}
+
+.left-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-sidebar li {
+    margin-bottom: 10px;
+}
+
+
+.main-content {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #bcccdc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #d9e2ec;
+}
+
+
+.right-sidebar {
+    width: 20%;
+    background-color: #e3ecf3;
+    padding: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 8px;
+    border: 1px solid #bcccdc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #334e68;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #627d98;
+}
+
+
+footer {
+    background-color: #d9e2ec;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
