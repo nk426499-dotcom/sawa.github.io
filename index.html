@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. Header -->
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    
+    <!-- 2. Menu bar -->
+    <nav class="menu-bar">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="trivia.html">Trivia</a>
+    </nav>
+
+    <div class="container">
+        <!-- 3. Left sidebar -->
+        <aside class="left-sidebar">
+            <h3>Useful Links</h3>
+           <ul>
+            <li><a href="https://lms.ritsumei.ac.jp/my/" target="_blank">Moodle +R</a></li>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="https://sp.ritsumei.ac.jp/studentportal/s/" target="_blank">Student Portal</a></li>
+           </ul>
+
+        </aside>
+
+        <!-- 4. Main Content -->
+        <main class="main-content">
+            <h2>About Me</h2>
+            <p>Nice to meet you! I am currently interested in the field of robotics and am dedicated to learning about it every day. Recently, I managed to win a global robotics competition.</p>
+            <p>As for my hobbies, I am very passionate about the guitar and practice it daily.</p>
+            <img src="IMG_1298.jpg" alt="Robot" width="300">
+        </main>
+
+        <!-- 5. Right sidebar -->
+        <aside class="right-sidebar">
+            <h3>Contact Me</h3>
+            <form id="contact-form" onsubmit="return validateForm()">
+                <input type="text" id="name" placeholder="Your Name">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </aside>
+    </div>
+
+    <!-- 6. Footer -->
+    <footer>
+        <p>Created on: 2026-07-19</p>
+        <p>
+            <a href="https://github.com/nk426499-dotcom" target="_blank">sawa (GitHub)</a> | 
+            <a href="https://www.ritsumei.ac.jp/" target="_blank">Ritsumeikan Univ</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
